@@ -1,0 +1,166 @@
+/* Configurações gerais */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: 1px solid red;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    background: #fff url(images/fundo.png) repeat-x;
+}
+
+main {
+    width: 850px;
+    margin: 0 auto;
+}
+
+/* Header */
+
+.topo {
+    height: 175px;
+    background: url(images/detalhe-topo.png) no-repeat right top;
+    padding-top: 25px;
+}
+
+#logo {
+    width: 200px;
+    height: 66px;
+    color: #fff;
+    font-weight: bold;
+    justify-content: center;
+    text-align: center;
+   
+   
+}
+
+#logo span {
+    color: rgb(231, 13, 13);
+}
+
+/* Barra de navegação horizontal (header) */
+
+.topo ul {
+    list-style-type: none;
+    background: #b10333;
+    margin-top: 30px;
+    float: left;
+    border-radius: 10px;
+}
+
+.topo ul li {
+   float: left;
+}
+
+.topo ul li a {
+    font-size: 0.9em;
+    display: block;
+    padding: 0.5em 1.5em;
+    line-height: 2em;
+    
+    text-decoration: none;
+    color: #fff;
+    background: url(images/divisor.png) no-repeat left center;
+}
+
+.topo ul #primeiro-item a {
+    background: none;
+}
+
+.topo ul a:hover {
+    color: #69001d;
+}
+
+/* Select na navegação do cabeçalho */
+
+.topo #navbar-horizontal a#selecionado {
+    color: #fff;
+    background: #de003e;
+}
+
+
+/* Main */
+
+#conteudo {
+    margin-top: 60px;
+
+    background: #f5f5f5;
+}
+
+#conteudo-lateral {
+    width: 180px;
+
+    float: left;
+    margin: 0 0 20px -750px;
+}
+
+/* Páginas com exibições de conteúdo diferentes */
+
+#conteudo-principal {
+    width: 270px;
+    float: left;
+    margin: 0 0 20px 195px;
+}
+
+#duas-colunas #conteudo-principal {
+    width: 555px;
+}
+
+#uma-coluna #conteudo-principal {
+    width: 850px;
+    margin: 0 0 20px 0;
+}
+
+#conteudo-secundario {
+    width: 270px;
+    float: left;
+    margin: 0 0 20px 15px;
+}
+
+/* Coluna lateral */
+
+.container {
+    margin: 10px 0;
+    padding: 5px;
+    background: #f3f3f3 url(images/fundo-caixa.png);
+}
+
+.container h2 {
+    font-size: 1.1em;
+    background: #294c71;
+    color: #fff;
+    padding: 5px;
+}
+
+.container-conteudo {
+    background: #fff;
+    padding: 5px;
+    margin-top: 5px;
+}
+
+/* Footer */
+
+footer {
+    clear: both;
+    background: #294c71;
+    padding: 20px;
+    text-align: center;
+}
+
+footer #rodape {
+    width: 850px;
+    margin: 0 auto;
+}
+
+footer #rodape a{
+    text-decoration: none;
+    font-weight: bold;
+    color: #fff;
+}
